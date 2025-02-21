@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts',
-    'blog',
+    'blog', 
     'comments',
 ]
 
@@ -141,3 +141,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Custom user settings
 AUTH_USER_MODEL = "accounts.CustomUser"
+
+# # logging configuration
+# LOGIN_URL = "/"
+# LOGOUT_REDIRECT_URL = '/'
+# AUTHENTICATION_BACKENDS = ["accounts.authentication.EmailBackend"]
+
